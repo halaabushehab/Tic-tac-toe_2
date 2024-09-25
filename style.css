@@ -1,0 +1,45 @@
+.game{
+text-align: center;
+background-color:rgb(88, 152, 212) ;
+width:300px;
+margin:auto ;
+font-family: cursive;
+height: 50%;
+}
+
+.header{
+    background-color:rgb(88, 152, 212) ;
+    margin: 50px  0 ;
+padding:10px  0 ;
+font-size: 30px;
+
+}
+
+
+span{
+    color:rgb(238, 238, 238);
+
+}
+
+ .boxs{
+    height: 30%;
+    float: left;
+     display: grid;
+    grid-template-columns: auto auto auto; 
+    background-color:rgb(88, 152, 212) ;
+margin: 5px  5px;
+padding: 30px; } 
+
+.box{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(255, 255, 255) ;
+    float: left;
+    font-size:50px ;
+    margin:2px ;
+}
+
+.box:hover{
+    background-color:rgb(165, 165, 165) ;
+    cursor: pointer;
+}
