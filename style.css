@@ -1,3 +1,38 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% 50%, rgba(255, 0, 255, 0.1), rgba(255, 0, 255, 0.3), rgba(0, 0, 0, 0.8));
+    background: linear-gradient(120deg, rgba(255, 0, 255, 0.5), rgba(0, 255, 255, 0.5));
+
+    margin: 0;
+}
+
+.neon-text {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 
+        0 0 5px #ff00ff, 
+        0 0 10px #ff00ff, 
+        0 0 20px #ff00ff, 
+        0 0 30px #ff00ff, 
+        0 0 40px #ff00ff, 
+        0 0 50px #ff00ff, 
+        0 0 60px #ff00ff;
+    transition: transform 0.2s ease-in-out;
+
+
+}
+
+.neon-text:hover {
+    transform: scale(1.1);
+}
+ 
+
+
+
 .game{
 text-align: center;
 background-color:rgb(88, 152, 212) ;
